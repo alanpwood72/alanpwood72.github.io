@@ -1,9 +1,7 @@
 
-<!DOCTYPE html>
-
 <html>  
     <head>
-        <title>Profile</title>
+        <title>MyProfile</title>
     </head>
     <body>
         <h1>My Profile</h1>
