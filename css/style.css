@@ -1,4 +1,76 @@
-
-h1 {
-    color: blue;
+*{
+	margin: 0;
+	padding: 0;
 }
+
+
+.clr{clear: both;}
+
+#main-header{
+	background-image: url(../images/header-background.jpg);
+	background-position: center;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+.sections{
+	background-image: url(../images/body-background.png);
+	background-position: center;
+}
+
+.container{
+	width: 80%;
+	padding: 10px;
+	margin: auto;
+	overflow: hidden;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #6D77B3;
+}
+
+.headPhoto{
+	float: left;
+}
+
+.name{
+	float: left;
+	padding-top: 20px;
+	padding-left: 10px; 
+	color: #6D77B3;
+}
+
+.contactDetails{
+	margin-top: 50px;
+	float: right;
+	font-size: 18px;
+}
+
+.contactDetails li{
+	list-style: none;
+}
+
+.artTitle{
+	color: #413A16;
+}
+.artTitle h1{
+	font-size: 2em;
+}
+
+.artParagraph{
+	color: #51481C;
+}
+.artParagraph h2 {
+	padding-top: 5px;
+	font-size: 1.4em;
+	color: #413A16;
+}
+
