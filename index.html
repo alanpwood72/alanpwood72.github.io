@@ -185,6 +185,62 @@
 			</div>
 		</article>
 	</section>
+	<section class="sections">
+		<article class="container">
+			<div class ="artTitle">
+				<h1>Project Idea</h1>
+			</div>
+			<div class="artParagraph">
+				<h2>Overview</h2>
+				<p>For my project, I decided to build an audio sense that operates a relay to activate or deactivate any device when sound is detected on the input of the sensor, it can be used in multiple applications, one of them being when you get home and connect your music device to the sound system it will automatically turn on the high power amplifier, vice versa when no sound is detected and it will shut down its base mainly in Arduino board as a decision-maker, Arduino compatible relay and the analogous sensor that I will build from scratch for the project as well as the 3d printed enclosure parts.</p>
+			</div>
+		</article>
+		<article class="container">
+			<div class ="artTitle">
+				<h2>Motivation</h2>
+			</div>
+			<div class="artParagraph">
+				<p>This project can be used for multiple applications where the sound activated switch is needed; this is not a voice-activated switch since the source input is used through an audio jack, there are many commercial devices available at a high price, I'm developing this unit mainly to be used at home where anyone with small electronic knowledge will be able to download the project as well as ordering the board and parts to be assembled or even buy at low cost with the pre-assembled product. </p>
+			</div>
+		</article>
+		<article class="container">
+			<div class ="artTitle">
+				<h2>Description</h2>
+			</div>
+			<div class="artParagraph">
+				<p>This project has one input the audio sensor and one output that is a relay with a normal close, normal open, and a common connection that is used to wire the device that will be switched.
+				The entire electronic is powered by a 5 volts source, connected to the Arduino board micro USB port, and redistribute to the relay as well as the audio sensor board.
+				When an audio signal is at the input of the stereo jack the signal is amplified by an operational amplifier chip, this amplified signal is analog and it is converted to digital 0 and 5 volts so it can be used to trigger the Arduino input. 
+				When 5 volts are at the Arduino input the code will check for a period to make sure the input voltage still high not just a noise spike, after that it will change the output to high which will make the relay board activate the relay.
+				When not, the audio signal is at the input of the stereo jack, the voltage drops to 0 “zero” at the Arduino input and the code will check for 20 seconds or more to make sure that there is no input not just a quiet time in the sound source, after that the output will become low and the relay board changes the status back to the initial position and the cycle repeats.
+</p>
+			</div>
+		</article>
+		<article class="container">
+			<div class ="artTitle">
+				<h2>Tools and Technologies</h2>
+			</div>
+			<div class="artParagraph">
+				<p>The initial design would be using <a href="https://easyeda.com/" target="_blank">EasyEDA</a> online PCB design & circuit simulator, this software is free to use, you can download the design and use it to create your own PCB or directly order it through EasyEDA, the PCB usually takes one to two weeks to be delivered. The next step is to prototype it in a breadboard then transfer it to a board. The code will be programmed and transferred through <a href="https://www.arduino.cc/" target="_blank">Arduino IDE</a> to the Arduino board. For the enclosure I will be using <a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators" target="_blank">Fusion 360</a> to design the 3d object to be converted to an STL file and printed using a 3d printer. Fusion 360 is free to use for students as well as a hobby.</p>
+			</div>
+		</article>
+		<article class="container">
+			<div class ="artTitle">
+				<h2>Skills Required</h2>
+			</div>
+			<div class="artParagraph">
+				<p>The project requires basic knowledge on electronics to adapt the operational amplifier and convert the analog signal to zero when it is low and five when it is high, also some skill soldering electronics component. To program the Arduino board there is plenty of information on the Arduino site and the internet. To be able to produce the enclosure, basic 3d model design skill is required and again there is a great tutorial on the internet on how to create 3d objects in Fusion 360. To print the 3d model, if you do not own a 3d printer to produce the part, 3d printed parts can be ordered online for a low cost.</p>
+			</div>
+		</article>
+		<article class="container">
+			<div class ="artTitle">
+				<h2>Outcome</h2>
+			</div>
+			<div class="artParagraph">
+				<p>I am not expecting to make money from it, only the satisfaction when others can use a product that I have built and shared. Point to be taken is that I will be learning a lot in the process of building it.</p>
+			</div>
+		</article>
+	</section>
 
 
 </body>
